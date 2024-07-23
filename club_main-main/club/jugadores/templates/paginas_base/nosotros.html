@@ -1,0 +1,59 @@
+{% extends 'paginas_base/base.html' %}
+{% load static %}
+{% block titulo %}Página Nosotros {% endblock titulo %}
+{% block contenido %}
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-8 mx-auto text-center">
+                <h1 class="display-4 fst-italic mb-4">CRUZ DEL EJE SPORTIVO LAWN TENNIS CLUB</h1>
+                <p class="lead">El Cruz del Eje Sportivo Lawn Tennis Club es una institución que está ubicada en la calle Belgrano, en pleno corazón del barrio Centro. Este club se destaca por su compromiso social con la comunidad y su dedicación al desarrollo integral de sus miembros, tanto niños como adultos.</p>
+                <p class="lead mb-0"><a href="#" class="text-white fw-bold">Saber más...</a></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title text-primary">Básquet</h2>
+                        <p class="card-text">El básquet es la disciplina principal del club, promoviendo valores como la disciplina, el trabajo en equipo y la dedicación. Nuestros equipos compiten en diversas ligas y torneos, representando orgullosamente a nuestro club.</p>
+                        <a href="#" class="stretched-link">Leer más</a>
+                    </div>
+                    <div class="col-auto d-none d-lg.block">
+                        <a>
+                            <img src="{% static 'Diseño sin título(1).png' %}" alt="imagen" width="200px" height="200px"> 
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card border-0 shadow-sm">
+                    <div class="card-body">
+                        <h2 class="card-title text-success">Vóley</h2>
+                        <p class="card-text">El vóley es otra disciplina importante del club, fomentando el trabajo en equipo, la comunicación y la estrategia. Nuestros equipos participan activamente en competiciones locales, destacándose por su espíritu deportivo.</p>
+                        <a href="#" class="stretched-link">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h2>Información General</h2>
+                <ul class="list-unstyled">
+                    <li><strong>NOMBRE:</strong> CRUZ DEL EJE SPORTIVO LAWN TENNIS CLUBS</li>
+                    <li><strong>FUNDACIÓN:</strong> 30 DE JUNIO DE 1928</li>
+                    <li><strong>DIRECCIÓN:</strong> BELGRANO 250, CRUZ DEL EJE, CÓRDOBA</li>
+                </ul>
+
+                <h2>Historia y Valores</h2>
+                <p>El Cruz del Eje Sportivo Lawn Tennis Club es un lugar donde se practica deporte y también un espacio de encuentro, aprendizaje y crecimiento. Fundado con el objetivo de fomentar la actividad física y el espíritu de equipo, el club ha evolucionado para convertirse en un verdadero pilar de contención social y formación integral en nuestra querida ciudad.</p>
+
+                <h2>Misión y Visión</h2>
+                <p>El Cruz del Eje Sportivo Lawn Tennis Club tiene una misión clara: ser un lugar de contención y formación integral para todos. Nos enfocamos en ofrecer un ambiente seguro y acogedor donde cada persona pueda desarrollar su potencial, tanto en el ámbito deportivo como en el personal. Nuestra visión es seguir creciendo como una institución referente en la comunidad, fortaleciendo lazos y brindando oportunidades a quienes deseen formar parte de esta gran familia.</p>
+            </div>
+        </div>
+    </div>
+{% endblock contenido %}
